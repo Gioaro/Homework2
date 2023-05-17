@@ -42,21 +42,26 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/last_name_edittext" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/profile_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="View Profile"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
+        android:padding="15sp"
         android:layout_marginTop="50dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/gpa_edittext" />
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/list_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="List"
+        android:background="@drawable/btn"
+        android:textColor="@color/white"
         android:layout_marginTop="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
